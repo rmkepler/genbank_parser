@@ -1,0 +1,1 @@
+#This is the repository for the little script I am trying to write that parses the information Genbank sends back when you get your accession numbers.  The intent is to take the three columns of information (file sequencename GBnumber) and make it a nice little tab delimited file with information for each sequence name on a line. 
