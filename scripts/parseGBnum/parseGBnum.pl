@@ -20,6 +20,6 @@ while (my $line = <IN>) {
 	$gene =~ s/\..+//;
 	$gb_hash{$sample}{$gene} = $gbnum;
 }
-my $thing;
+my $thing; #this is where I will start dereferencing later
 my $placeholder:
 __END__
