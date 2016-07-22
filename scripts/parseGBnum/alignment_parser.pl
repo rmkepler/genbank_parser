@@ -7,6 +7,11 @@ use Bio::SeqIO;
 use Bio::DB::Fasta;
 use Bio::SimpleAlign;
 use Bio::AlignIO;
+#This script prunes taxa not found in the comma delineated input file of metadata for sequences to be submitted to genbank.
+#Scans directory for alignments in fasta format, and exports to a new folder named after the file.
+#Saves two alignments in fasta format.  One is the alignment with metadata formatted for sequin upload, the other lacks metadata.
+
+#usage: ./alignment_parser.pl INPUT_TABLE.csv
 
 my $table = shift;
 my %tbl_hash;
