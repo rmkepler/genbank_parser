@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-#usage:parseGBnum.pl INFILE OUTFILE 
+#usage: parseGBnum.pl INFILE OUTFILE 
 
 #Read in data returned directly from genbank (in the form of FILE SAMPLE GBNUM) and parse
 # the data into a table, with a separate line for each sample and each accession in a
